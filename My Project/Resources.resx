@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="barbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy_in_hallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy_in_hallway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy_in_his_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy_in_his_room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy_with_his_classmate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy_with_his_classmate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy_with_his_teacher_natural_language_classmate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy_with_his_teacher_natural_language_classmate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy_with_teacher_in_research_classmate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy_with_teacher_in_research_classmate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="campuscourtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\campuscourtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Classroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Classroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="femaleroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\femaleroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl_hallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girl_hallway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl_in_her_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girl_in_her_room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl_teacher_in_research_classmate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girl_teacher_in_research_classmate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl_teacher_natural_languange_classmate_comlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girl_teacher_natural_languange_classmate_comlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girl_with_her_classmate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girl_with_her_classmate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hallway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenubgm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dreamy Flashback.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mainmenufinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mainmenufinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenugif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainMenugif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mainmenupause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mainmenupause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PressBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PressBtn.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quizbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quizbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quizwallpeper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quizwallpeper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recycle_bin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recycle-bin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="this_pc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\this pc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s10comlabmalebff1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s10comlabmalebff1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s10female_friends" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s10female&amp;friends.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s10profana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s10profana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s11bedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s11bedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s12onlydc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s12onlydc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s13maledc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s13maledc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s14bff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s14bff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s15malebffdc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s15malebffdc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s16classroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s16classroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s17classteacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s17classteacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s18malebffclassroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s18malebffclassroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s19classroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s19classroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s1hallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s1hallway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s1schoolfrontfemale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s1schoolfrontfemale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s20courtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s20courtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s21malebff1courtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s21malebff1courtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s22malebff2courtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s22malebff2courtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s23bffcomlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s23bffcomlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s23malebffcourtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s23malebffcourtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s24malebffcourtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s24malebffcourtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s25malebffcourtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s25malebffcourtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s26malebffcourtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s26malebffcourtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s27malebffcourtyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s27malebffcourtyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s28comlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s28comlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s29comlabteacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s29comlabteacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s2hallwayfemale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s2hallwayfemale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s2hallwaymale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s2hallwaymale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s30malebffcomlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s30malebffcomlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s32comlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s32comlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s33bffcomlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s33bffcomlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s34malebffcomlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s34malebffcomlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s35teachercomlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s35teachercomlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s36malebffcomlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s36malebffcomlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s3schoolfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s3schoolfront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s3schoolfrontfemale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s3schoolfrontfemale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s3schoolfrontfemalefriend1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s3schoolfrontfemalefriend1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s3schoolfrontfemalefriend2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s3schoolfrontfemalefriend2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s3schoolfrontfemalefriend3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s3schoolfrontfemalefriend3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s4comlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s4comlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s4femalefriend1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s4femalefriend1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s5comlabfemale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s5comlabfemale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s5schoolfrontmalefriends" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s5schoolfrontmalefriends.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s6femaleandfriend1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s6femaleandfriend1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s6femaleroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s6femaleroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s6femaleroomdiscord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s6femaleroomdiscord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s6schoolfrontmalefriends2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s6schoolfrontmalefriends2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s7classroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s7classroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s7femaleandfriend1classroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s7femaleandfriend1classroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s7schoolfrontmalefriends3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s7schoolfrontmalefriends3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s8female3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s8female3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s8female5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s8female5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s8femalefriend1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s8femalefriend1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s8femalefriend2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s8femalefriend2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s8femalefriend4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s8femalefriend4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s8schoolfrontmalefriends4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s8schoolfrontmalefriends4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s9comlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s9comlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s9femalefriend2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s9femalefriend2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s9female_friend1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s9female&amp;friend1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y1s9profanacomlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y1s9profanacomlab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd12maleschoolfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd12maleschoolfront.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd13maleclassroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd13maleclassroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd14girlcoffeeshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd14girlcoffeeshop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd15girllibrary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd15girllibrary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd16malelibrary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd16malelibrary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd1girlbffclassroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd1girlbffclassroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd1malebffclassroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd1malebffclassroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd2girlbffcoffeshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd2girlbffcoffeshop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd2malebffcoffeshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd2malebffcoffeshop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd3girlbffschoolfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd3girlbffschoolfront.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd3malebffschoolfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd3malebffschoolfront.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd4girlbfflibrary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd4girlbfflibrary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd4malebfflibrary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd4malebfflibrary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd5bffclassroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd5bffclassroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd5girlbffclassroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd5girlbffclassroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd6girlbffcoffeeshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd6girlbffcoffeeshop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd7girlbffschoolfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd7girlbffschoolfront.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd7malebfflibrary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd7malebfflibrary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd8girlbfflibrary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd8girlbfflibrary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd9girlbffcofeeshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd9girlbffcofeeshop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y2nd9girlbffschoolfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y2nd9girlbffschoolfront.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y3female2bff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y3female2bff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y3male2bff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y3male2bff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yr1s6femalefriend1roomdiscord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yr1s6femalefriend1roomdiscord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yr1s7profjaxclassroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yr1s7profjaxclassroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
